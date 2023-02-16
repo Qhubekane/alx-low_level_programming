@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'intel'
+git commit -m 'referenced quote'
 git push
