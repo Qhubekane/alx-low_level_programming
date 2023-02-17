@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'print single digits of base 10 starting from 0'
+git commit -m 'print single digits of base 10 starting from 0 using putchar'
 git push
