@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'numbers of base 16 in lowercase'
+git commit -m 'numbers of combinations of single digits'
 git push
