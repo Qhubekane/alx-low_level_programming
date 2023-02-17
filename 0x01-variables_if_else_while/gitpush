@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'the last digit'
+git commit -m 'print in lowercase'
 git push
