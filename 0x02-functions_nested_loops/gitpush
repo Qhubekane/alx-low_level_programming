@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'funtion that computes an absolut value of an integer'
+git commit -m 'funtion that prints last digit of a number'
 git push
