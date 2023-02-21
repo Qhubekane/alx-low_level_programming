@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'printing alphabet in lowercase'
+git commit -m 'printing alphabet in lowercase 10x'
 git push
