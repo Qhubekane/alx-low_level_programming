@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'funtion checks for alphabetic character'
+git commit -m 'funtion prints sign of a number'
 git push
