@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'funtion checks for lowercase character'
+git commit -m 'funtion checks for alphabetic character'
 git push
