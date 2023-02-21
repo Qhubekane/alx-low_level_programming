@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'funtion prints sign of a number'
+git commit -m 'funtion that computes an absolut value of an integer'
 git push
