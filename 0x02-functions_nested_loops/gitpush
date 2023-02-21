@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'printing putchar with new line'
+git commit -m 'printing alphabet in lowercase'
 git push
