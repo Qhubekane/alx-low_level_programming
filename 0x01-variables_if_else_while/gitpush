@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'all possible combinations of 3 digits'
+git commit -m 'print digits from 0-99'
 git push
