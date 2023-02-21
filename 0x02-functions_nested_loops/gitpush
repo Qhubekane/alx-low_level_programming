@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'funtion that adds two int and print result'
+git commit -m 'funtion that prints natural numbers from n to 98'
 git push
