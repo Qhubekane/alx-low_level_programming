@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'funtion that prints last digit of a number'
+git commit -m 'funtion that prints every minute of the day'
 git push
