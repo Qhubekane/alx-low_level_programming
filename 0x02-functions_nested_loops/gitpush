@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'funtion that prints every minute of the day'
+git commit -m 'funtion that prints the 9 times table starting with 0'
 git push
