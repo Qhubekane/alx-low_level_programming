@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'funtion that prints table'
+git commit -m 'funtion that prints sum of all multiples of 3 and 5 under 1024'
 git push
