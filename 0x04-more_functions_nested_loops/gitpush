@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'Function that draws a square  on terminal'
+git commit -m 'Fizz Buzz test'
 git push
