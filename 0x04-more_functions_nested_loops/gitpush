@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'Function that draws a staight line on terminal'
+git commit -m 'Function that draws a diagonal line on terminal'
 git push
