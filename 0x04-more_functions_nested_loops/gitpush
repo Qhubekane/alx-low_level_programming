@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'Function that prints numbers looped 10x'
+git commit -m 'Function that draws a staight line on terminal'
 git push
