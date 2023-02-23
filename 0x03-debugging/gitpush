@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'print remianing days'
+git commit -m 'print largest number'
 git push
