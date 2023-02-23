@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'Function that multiplies 2 ints'
+git commit -m 'Function that prints numbers'
 git push
