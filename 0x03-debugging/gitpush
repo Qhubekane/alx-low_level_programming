@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'positive negative debugging'
+git commit -m 'avoid infinite loop'
 git push
