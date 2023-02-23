@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'Prints tiangle'
+git commit -m 'prints the largest prime factor of the number'
 git push
