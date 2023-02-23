@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'prints the largest prime factor of the number'
+git commit -m 'prints an integer'
 git push
