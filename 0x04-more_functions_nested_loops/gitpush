@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'Function that checks uppercase character'
+git commit -m 'Function that checks for digits'
 git push
