@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'avoid infinite loop'
+git commit -m 'print largest number'
 git push
