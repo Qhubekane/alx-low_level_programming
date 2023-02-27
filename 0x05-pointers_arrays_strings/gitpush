@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'a function that swaps values of 2 ints'
+git commit -m 'a function that returns the length of a string'
 git push
