@@ -1,22 +1,18 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * _strcpy - Function that copies string to buffer
- * @dest: return value of buffer
- * @src: This is the copia
- *
- * Return: This return copy
+ * char *_strcpy - a function that copies the string pointed to by src
+ * @dest: copy to
+ * @src: copy from
+ * Return: string
  */
 char *_strcpy(char *dest, char *src)
 {
-	char *start = dest;
+	int i = 0;
 
-	while (*src != '\0')
+	for (; src[i] != '\0'; i++)
 	{
-		*dest = *src;
-		dest++;
-		src++;
+		dest[i] = src[i];
 	}
-	*dest = '\0';
-	return (start);
+	return (dest);
 }
