@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'a function that prints a string followed by a new line to stdout'
+git commit -m 'a function that prints a string in reverse'
 git push
