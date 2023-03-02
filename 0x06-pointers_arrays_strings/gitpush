@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'copy strings'
+git commit -m 'compare strings'
 git push
