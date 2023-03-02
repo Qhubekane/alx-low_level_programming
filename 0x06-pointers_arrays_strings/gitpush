@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'capitalize all words of a string'
+git commit -m 'encodes a string into 1337'
 git push
