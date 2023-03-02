@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'change all lowercase to uppercase'
+git commit -m 'capitalize all words of a string'
 git push
