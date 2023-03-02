@@ -1,39 +1,29 @@
 #include "main.h"
 /**
- * rot13 - encodes a string using rot13.
- * @p: first value to compare
+ * rot13 - encodes a string using rot13
  *
- * Return: Char
+ * @z: the string to encode
+ *
+ * Return: the new string
  */
-char *rot13(char *p)
+
+char *rot13(char *z)
 {
-	int i = 0, j = 0;
-	char a[] = {'A', 'N', 'A', 'B', 'O', 'B', 'C', 'P', 'C', 'D', 'Q', 'D',
-		    'E', 'R', 'E', 'F', 'S', 'F', 'G', 'T', 'G', 'H', 'U', 'H',
-		    'I', 'V', 'I', 'J', 'W', 'J', 'K', 'X', 'K', 'L', 'Y', 'L',
-		    'M', 'Z', 'M', 'a', 'n', 'a', 'b', 'o', 'b', 'c', 'p', 'c',
-		    'd', 'q', 'd', 'e', 'r', 'e', 'f', 's', 'f', 'g', 't', 'g',
-		    'h', 'u', 'h', 'i', 'v', 'i', 'j', 'w', 'j', 'k', 'x', 'k',
-		    'l', 'y', 'l', 'm', 'z', 'm', '\0'};
+	int i, j;
+	char a[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char n[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
-
-	while (p[i] != '\0')
+	for (i = 0; z[i] != '\0'; i++)
 	{
-		while (((p[i] >= 65 && p[i] <= 90) ||
-			(p[i] >= 97 && p[i] <= 122)) &&
-		       (j < 78))
+		for (j = 0; j < 56; j++)
 		{
-			if ((p[i] == a[j]) && (a[j] != a[j - 2]))
+			if (z[i] == a[j])
 			{
-				p[i] = a[j + 1];
-				j = 77;
+				z[i] = n[j];
+				break;
 			}
-			j++;
 		}
-		i++;
-		j = 0;
 	}
-	return (p);
+
+	return (z);
 }
-Footer
-© 2023 GitHub
