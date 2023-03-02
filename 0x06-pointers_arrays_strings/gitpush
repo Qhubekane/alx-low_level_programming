@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'cancatenate two strings'
+git commit -m 'copy strings'
 git push
