@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'compare strings'
+git commit -m 'revrse content of array of integers'
 git push
