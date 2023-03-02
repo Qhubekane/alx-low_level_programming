@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'encodes a string into 1337'
+git commit -m 'encodes a string usinf rot13'
 git push
