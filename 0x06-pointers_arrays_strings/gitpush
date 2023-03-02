@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'prints an integer'
+git commit -m 'prints a[2] = 98'
 git push
