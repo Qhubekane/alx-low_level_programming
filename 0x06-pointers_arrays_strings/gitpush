@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'prints a[2] = 98'
+git commit -m 'adds 2 numbers'
 git push
