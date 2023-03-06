@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'gets the length of a prefix substring'
+git commit -m 'searches a string for any set of bytes'
 git push
