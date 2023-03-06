@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'locates character in a string'
+git commit -m 'gets the length of a prefix substring'
 git push
