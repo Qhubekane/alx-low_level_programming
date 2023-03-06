@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'fills memory with a constant byte'
+git commit -m 'copies memory area'
 git push
