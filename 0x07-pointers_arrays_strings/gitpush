@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'prints the sum of two diagonals of a square matrix of integers'
+git commit -m 'sets te value of a pointer to a char'
 git push
