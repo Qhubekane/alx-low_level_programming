@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'sets te value of a pointer to a char'
+git commit -m 'crack me 2'
 git push
