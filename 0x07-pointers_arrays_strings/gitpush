@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'searches a string for any set of bytes'
+git commit -m 'locates a substring'
 git push
