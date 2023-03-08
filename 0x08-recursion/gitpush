@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'function prints a string in reverse'
+git commit -m 'function returns length of string'
 git push
