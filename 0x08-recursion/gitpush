@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'function returns a natural square root of a number'
+git commit -m 'function returns 1 if input int is a prime number'
 git push
