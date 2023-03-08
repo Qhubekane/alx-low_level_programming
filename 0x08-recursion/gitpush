@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'function returns x to the power of y'
+git commit -m 'function returns a natural square root of a number'
 git push
