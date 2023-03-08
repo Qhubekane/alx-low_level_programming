@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'function returns factorial of a number'
+git commit -m 'function returns x to the power of y'
 git push
