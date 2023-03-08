@@ -1,29 +1,28 @@
 #include "main.h"
-/**
- *is_prime_number - if n is a prime number
- *@n: number integer
- *Return: 1
- *
- *
- */
-int is_prime_number(int n)
-{
-	if (n < 0 || n == 1)
-		return (0);
-	return (prime2(2, n));
-}
 
 /**
- *prime2 - find prime number
- *@x: integer
- *@y: integer
- *Return: value
+ * prime2 - Makes possible to evaluate from 1 to n
+ * @a: same number as n
+ * @b: number that iterates from 1 to n
+ is_prime_number - checks if a number is prime
+ * @n: Number Integer
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-int prime2(int x, int y)
+int prime2(int a, int b)
 {
-	if (y == x)
+	if (a == b)
 		return (1);
-	else if (y % x == 0)
+	else if (a % b == 0)
 		return (0);
-	return (prime2(x + 1, y));
+	return (prime2(a, b + 1));
+}
+int is_prime_number(int n)
+{
+	if (n <= 1)
+		return (0);
+	return (prime2(n, 2));
 }
