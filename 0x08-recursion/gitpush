@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'function returns 1 if input is palindrome 0 if not'
+git commit -m 'compares two strings and returns 1 if the strings can be considered identical, otherwise return 0'
 git push
