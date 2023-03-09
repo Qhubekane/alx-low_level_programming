@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'function returns 1 if input int is a prime number'
+git commit -m 'function returns 1 if input is palindrome 0 if not'
 git push
