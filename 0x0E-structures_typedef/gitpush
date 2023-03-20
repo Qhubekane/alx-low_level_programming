@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'function that creates a new dog'
+git commit -m 'function that frees dog'
 git push
