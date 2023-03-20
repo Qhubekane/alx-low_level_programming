@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'Define a new type struct dog with structures'
+git commit -m 'function that initialize a variable of type struct dog'
 git push
