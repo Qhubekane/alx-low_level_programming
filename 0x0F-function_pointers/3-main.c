@@ -1,6 +1,7 @@
-#include <stdlib.h>
-#include <stdio.h>
+
 #include "3-calc.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * main - get_op_func has operators correlated with
  * func signs and funcs from op_func
@@ -28,7 +29,6 @@ int main(int argc, char *argv[])
 	two = atoi(argv[3]);
 	get_op = argv[2];
 
-	/* added edge case if argv[2] was longer than 1 char*/
 	if (get_op_func(argv[2]) == NULL || argv[2][1] != '\0')
 	{
 		printf("Error\n");
