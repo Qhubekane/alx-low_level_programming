@@ -7,7 +7,7 @@
 */
 
 {
-	int i;
+	unsigned int i;
 
 	if (h == NULL)
 		return (0);
