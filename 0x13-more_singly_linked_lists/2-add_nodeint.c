@@ -2,9 +2,9 @@
 
 /**
  * add_nodeint - inserts node at index zero
- * @newnode : points to the head
+ * @head : pointer to address of first node
  * @n : valu added to node
- * Return : the address of the new element, or NULL if it failed
+ * Return: the address of the new element, or NULL if it failed
 */
 
 listint_t *add_nodeint(listint_t **head, const int n)
@@ -16,10 +16,13 @@ listint_t *add_nodeint(listint_t **head, const int n)
 		return (NULL);
 
 	if (*head == NULL)
+	{
 		newnode->next = NULL;
+	}
 	else
+	{
 		newnode->next = *head;
-
+	}
 	newnode->n = n;
 	*head = newnode;
 
