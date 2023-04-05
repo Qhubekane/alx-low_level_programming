@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'function prints number of elements'
+git commit -m 'function adds node to tail'
 git push
