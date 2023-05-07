@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 
-/* get_endianness - check indianness
+/** 
+ * get_endianness - check indianness
  * Reutn: 0 if big and 1 if little
  */
 
