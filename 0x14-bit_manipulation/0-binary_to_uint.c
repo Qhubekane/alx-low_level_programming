@@ -8,16 +8,18 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-        if (b == NULL)
+	int len;
+
+	if (b == NULL)
 	{
-                return 0;
+                return (0);
         }
 
         const size_t len = strlen(b);
 
         if (len == 0 || len > sizeof(unsigned int) * CHAR_BIT)
 	{
-                return 0;
+                return (0);
         }
 
         unsigned int res = 0;
@@ -31,7 +33,7 @@ unsigned int binary_to_uint(const char *b)
                 }
 		else if (b[i-1] != '0') 
 		{
-                        return 0;
+                        return (0);
                 }
                 bit <<= 1;
         }
