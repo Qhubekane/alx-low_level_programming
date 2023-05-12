@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include "main.h"
 
 /**
@@ -16,10 +17,7 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 
 	if (!text_content)
-	{
-		for (len = 0; text_content[len];)
-			len++;
-	}
+		len = strlen(text_content);
 
 	fdr = open(filename, O_CREAT | O_TRUNC | O_RDWR, 0600);
 
